@@ -3,7 +3,7 @@ Simple brute force tool created to solve mazes for Stage 7 of the game "I wanna 
 
 "I wanna Gaze at the Horizon" is a (very)highly difficult puzzle platformer consisting of 9 stages. This tool was created in order to automatically solve instances of the lowest point of that game - a kind of puzzle that requires too much brute forcing and too little actual thinking.
 
-The puzzle works as follows: The player is given a large maze, consisting of several doors (Labeled by lower case letters) and several keys (Labeled by upper case letters). Each key has a COLOR, and it can only open doors with the same color. The colors are as follows:
+The puzzle works as follows: The player is given a large maze, consisting of several doors (Labeled by lower case letters) and several keys (Labeled by upper case letters). Each key has a COLOR, and it can only open doors with the same color. Once a key is used to open a door, both, the door and the key, are DESTROYED. The colors are as follows:
 ------- Key | Door |
 Blue:    B  |  b   |
 Cyan:    C  |  c   |
